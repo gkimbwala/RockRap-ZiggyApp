@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F6CC211C509E04007FEF91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6CC201C509E04007FEF91 /* AppDelegate.swift */; };
+		18F6CC231C509E04007FEF91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6CC221C509E04007FEF91 /* ViewController.swift */; };
+		18F6CC261C509E04007FEF91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F6CC241C509E04007FEF91 /* Main.storyboard */; };
+		18F6CC281C509E04007FEF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F6CC271C509E04007FEF91 /* Assets.xcassets */; };
+		18F6CC2B1C509E04007FEF91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F6CC291C509E04007FEF91 /* LaunchScreen.storyboard */; };
+		18F6CC361C509E04007FEF91 /* RockRapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6CC351C509E04007FEF91 /* RockRapTests.swift */; };
+		18F6CC411C509E04007FEF91 /* RockRapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6CC401C509E04007FEF91 /* RockRapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F6CC321C509E04007FEF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F6CC151C509E04007FEF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F6CC1C1C509E04007FEF91;
+			remoteInfo = RockRap;
+		};
+		18F6CC3D1C509E04007FEF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F6CC151C509E04007FEF91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F6CC1C1C509E04007FEF91;
+			remoteInfo = RockRap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F6CC1D1C509E04007FEF91 /* RockRap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockRap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F6CC201C509E04007FEF91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F6CC221C509E04007FEF91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F6CC251C509E04007FEF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F6CC271C509E04007FEF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F6CC2A1C509E04007FEF91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F6CC2C1C509E04007FEF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F6CC311C509E04007FEF91 /* RockRapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockRapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F6CC351C509E04007FEF91 /* RockRapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockRapTests.swift; sourceTree = "<group>"; };
+		18F6CC371C509E04007FEF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F6CC3C1C509E04007FEF91 /* RockRapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockRapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F6CC401C509E04007FEF91 /* RockRapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockRapUITests.swift; sourceTree = "<group>"; };
+		18F6CC421C509E04007FEF91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F6CC1A1C509E04007FEF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC2E1C509E04007FEF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC391C509E04007FEF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F6CC141C509E04007FEF91 = {
+			isa = PBXGroup;
+			children = (
+				18F6CC1F1C509E04007FEF91 /* RockRap */,
+				18F6CC341C509E04007FEF91 /* RockRapTests */,
+				18F6CC3F1C509E04007FEF91 /* RockRapUITests */,
+				18F6CC1E1C509E04007FEF91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F6CC1E1C509E04007FEF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F6CC1D1C509E04007FEF91 /* RockRap.app */,
+				18F6CC311C509E04007FEF91 /* RockRapTests.xctest */,
+				18F6CC3C1C509E04007FEF91 /* RockRapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F6CC1F1C509E04007FEF91 /* RockRap */ = {
+			isa = PBXGroup;
+			children = (
+				18F6CC201C509E04007FEF91 /* AppDelegate.swift */,
+				18F6CC221C509E04007FEF91 /* ViewController.swift */,
+				18F6CC241C509E04007FEF91 /* Main.storyboard */,
+				18F6CC271C509E04007FEF91 /* Assets.xcassets */,
+				18F6CC291C509E04007FEF91 /* LaunchScreen.storyboard */,
+				18F6CC2C1C509E04007FEF91 /* Info.plist */,
+			);
+			path = RockRap;
+			sourceTree = "<group>";
+		};
+		18F6CC341C509E04007FEF91 /* RockRapTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F6CC351C509E04007FEF91 /* RockRapTests.swift */,
+				18F6CC371C509E04007FEF91 /* Info.plist */,
+			);
+			path = RockRapTests;
+			sourceTree = "<group>";
+		};
+		18F6CC3F1C509E04007FEF91 /* RockRapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F6CC401C509E04007FEF91 /* RockRapUITests.swift */,
+				18F6CC421C509E04007FEF91 /* Info.plist */,
+			);
+			path = RockRapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F6CC1C1C509E04007FEF91 /* RockRap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F6CC451C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRap" */;
+			buildPhases = (
+				18F6CC191C509E04007FEF91 /* Sources */,
+				18F6CC1A1C509E04007FEF91 /* Frameworks */,
+				18F6CC1B1C509E04007FEF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockRap;
+			productName = RockRap;
+			productReference = 18F6CC1D1C509E04007FEF91 /* RockRap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F6CC301C509E04007FEF91 /* RockRapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F6CC481C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRapTests" */;
+			buildPhases = (
+				18F6CC2D1C509E04007FEF91 /* Sources */,
+				18F6CC2E1C509E04007FEF91 /* Frameworks */,
+				18F6CC2F1C509E04007FEF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F6CC331C509E04007FEF91 /* PBXTargetDependency */,
+			);
+			name = RockRapTests;
+			productName = RockRapTests;
+			productReference = 18F6CC311C509E04007FEF91 /* RockRapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F6CC3B1C509E04007FEF91 /* RockRapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F6CC4B1C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRapUITests" */;
+			buildPhases = (
+				18F6CC381C509E04007FEF91 /* Sources */,
+				18F6CC391C509E04007FEF91 /* Frameworks */,
+				18F6CC3A1C509E04007FEF91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F6CC3E1C509E04007FEF91 /* PBXTargetDependency */,
+			);
+			name = RockRapUITests;
+			productName = RockRapUITests;
+			productReference = 18F6CC3C1C509E04007FEF91 /* RockRapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F6CC151C509E04007FEF91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gkimbwala;
+				TargetAttributes = {
+					18F6CC1C1C509E04007FEF91 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18F6CC301C509E04007FEF91 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18F6CC1C1C509E04007FEF91;
+					};
+					18F6CC3B1C509E04007FEF91 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18F6CC1C1C509E04007FEF91;
+					};
+				};
+			};
+			buildConfigurationList = 18F6CC181C509E04007FEF91 /* Build configuration list for PBXProject "RockRap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F6CC141C509E04007FEF91;
+			productRefGroup = 18F6CC1E1C509E04007FEF91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F6CC1C1C509E04007FEF91 /* RockRap */,
+				18F6CC301C509E04007FEF91 /* RockRapTests */,
+				18F6CC3B1C509E04007FEF91 /* RockRapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F6CC1B1C509E04007FEF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F6CC2B1C509E04007FEF91 /* LaunchScreen.storyboard in Resources */,
+				18F6CC281C509E04007FEF91 /* Assets.xcassets in Resources */,
+				18F6CC261C509E04007FEF91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC2F1C509E04007FEF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC3A1C509E04007FEF91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F6CC191C509E04007FEF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F6CC231C509E04007FEF91 /* ViewController.swift in Sources */,
+				18F6CC211C509E04007FEF91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC2D1C509E04007FEF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F6CC361C509E04007FEF91 /* RockRapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F6CC381C509E04007FEF91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F6CC411C509E04007FEF91 /* RockRapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F6CC331C509E04007FEF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F6CC1C1C509E04007FEF91 /* RockRap */;
+			targetProxy = 18F6CC321C509E04007FEF91 /* PBXContainerItemProxy */;
+		};
+		18F6CC3E1C509E04007FEF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F6CC1C1C509E04007FEF91 /* RockRap */;
+			targetProxy = 18F6CC3D1C509E04007FEF91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F6CC241C509E04007FEF91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F6CC251C509E04007FEF91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F6CC291C509E04007FEF91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F6CC2A1C509E04007FEF91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F6CC431C509E04007FEF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F6CC441C509E04007FEF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F6CC461C509E04007FEF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockRap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F6CC471C509E04007FEF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockRap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F6CC491C509E04007FEF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockRapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockRap.app/RockRap";
+			};
+			name = Debug;
+		};
+		18F6CC4A1C509E04007FEF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockRapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockRap.app/RockRap";
+			};
+			name = Release;
+		};
+		18F6CC4C1C509E04007FEF91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockRapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockRap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18F6CC4D1C509E04007FEF91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockRapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkimbwala.RockRapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockRap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F6CC181C509E04007FEF91 /* Build configuration list for PBXProject "RockRap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F6CC431C509E04007FEF91 /* Debug */,
+				18F6CC441C509E04007FEF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F6CC451C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F6CC461C509E04007FEF91 /* Debug */,
+				18F6CC471C509E04007FEF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F6CC481C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F6CC491C509E04007FEF91 /* Debug */,
+				18F6CC4A1C509E04007FEF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F6CC4B1C509E04007FEF91 /* Build configuration list for PBXNativeTarget "RockRapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F6CC4C1C509E04007FEF91 /* Debug */,
+				18F6CC4D1C509E04007FEF91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F6CC151C509E04007FEF91 /* Project object */;
+}
